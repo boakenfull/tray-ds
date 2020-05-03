@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the secondary tag component 1`] = `
+<div>
+  <span
+    class="sc-AxjAm sBda-d"
+  >
+    Text
+  </span>
+</div>
+`;
+
+exports[`should render the tag component 1`] = `
+<div>
+  <span
+    class="sc-AxjAm jSFWtu"
+  >
+    Text
+  </span>
+</div>
+`;
