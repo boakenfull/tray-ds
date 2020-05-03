@@ -15,7 +15,7 @@ Text.propTypes = {
 
 Text.defaultProps = {
   size: "medium",
-  isSecondary: false
+  isSecondary: false,
 };
 
 export default Text;

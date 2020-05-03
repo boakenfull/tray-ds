@@ -22,6 +22,20 @@ To run unit tests
 yarn test
 ```
 
+### Linting
+
+To run linting
+
+```sh
+yarn lint
+```
+
+To fix common errors
+
+```sh
+yarn lint --fix
+```
+
 ### Styling
 
 Styles are handled at a component level using [Styled Components](https://styled-components.com/). Global variables should be defined in the `styles/` directory to keep consistency.
@@ -46,6 +60,7 @@ A series of storybook addons have been installed to help the developer/designer/
 
 ### Structure
 
+* `src/` in this example, here is where the application using the design system would be stored.
 * `src/tray-ds` in this example, here is where the design system components are stored. In a live example, these components would be in their own project, published to NPM, ready for other web apps to consume the (version controlled) components.
 
 

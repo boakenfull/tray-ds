@@ -9,9 +9,9 @@ test("renders button component", () => {
   expect(container).toMatchSnapshot();
 });
 
-test("handles onClick correctly",() => {
+test("handles onClick correctly", () => {
   const { getByText } = render(<Button onClick={() => handleOnClick()}>Button</Button>);
   fireEvent.click(getByText("Button"));
 
   expect(handleOnClick).toHaveBeenCalled();
-})
+});

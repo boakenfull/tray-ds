@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGlobeAmericas } from "react-icons/fa";
 
-import Icon from "./";
+import Icon from ".";
 
 export default { title: "Icon" };
 

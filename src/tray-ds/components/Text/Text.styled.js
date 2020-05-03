@@ -6,8 +6,8 @@ import { xsmallFontSize, smallFontSize, defaultFontSize } from "../../styles/var
 export const TextStyled = styled.p`
   font-weight: normal;
   margin: 0;
-  color: ${props => props.isSecondary ? waterloo : violet};
-  ${props => props.size === "xsmall" && `font-size: ${xsmallFontSize};`}
-  ${props => props.size === "small" && `font-size: ${smallFontSize};`}
-  ${props => props.size === "default" && `font-size: ${defaultFontSize};`}
-`
+  color: ${(props) => (props.isSecondary ? waterloo : violet)};
+  ${(props) => props.size === "xsmall" && `font-size: ${xsmallFontSize};`}
+  ${(props) => props.size === "small" && `font-size: ${smallFontSize};`}
+  ${(props) => props.size === "default" && `font-size: ${defaultFontSize};`}
+`;

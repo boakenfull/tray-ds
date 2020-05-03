@@ -5,7 +5,7 @@ import { StyledIcon } from "./Icon.styled";
 
 const Icon = ({ icon }) => (
   <StyledIcon>{icon}</StyledIcon>
-)
+);
 
 Icon.propTypes = {
   icon: node.isRequired,

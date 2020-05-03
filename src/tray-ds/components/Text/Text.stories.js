@@ -1,13 +1,13 @@
 import React from "react";
-import { text, select } from "@storybook/addon-knobs"
+import { text, select } from "@storybook/addon-knobs";
 
-import Text from "./";
+import Text from ".";
 
 const sizeOptions = {
   xSmall: "xsmall",
   Small: "small",
   Default: "default",
-}
+};
 
 export default { title: "Text" };
 

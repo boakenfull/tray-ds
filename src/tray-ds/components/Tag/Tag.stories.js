@@ -1,7 +1,7 @@
 import React from "react";
-import { text } from "@storybook/addon-knobs"
+import { text } from "@storybook/addon-knobs";
 
-import Tag from "./";
+import Tag from ".";
 
 export default { title: "Tag" };
 

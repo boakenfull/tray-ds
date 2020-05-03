@@ -4,6 +4,6 @@ import { FaGlobeAmericas } from "react-icons/fa";
 import Icon from "../Icon";
 
 test("should render the component", () => {
-  const { container } = render(<Icon icon={<FaGlobeAmericas />} />)
+  const { container } = render(<Icon icon={<FaGlobeAmericas />} />);
   expect(container).toMatchSnapshot();
-})
+});

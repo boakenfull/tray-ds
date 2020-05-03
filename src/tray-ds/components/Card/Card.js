@@ -5,7 +5,7 @@ import { FaEllipsisH } from "react-icons/fa";
 import Text from "../Text";
 import Icon from "../Icon";
 import Tag from "../Tag";
-import Button from "../Button"
+import Button from "../Button";
 
 import {
   StyledCard,
@@ -13,16 +13,18 @@ import {
   StyledCardBody,
   StyledCardActions,
   InfoWrapperStyled,
-  LargeIconWrapper
+  LargeIconWrapper,
 } from "./Card.styled";
 
-const Card = ({ title, tagText, tagSecondary, icon, meta, largeIcon }) => (
+const Card = ({
+  title, tagText, tagSecondary, icon, meta, largeIcon,
+}) => (
   <StyledCard largeIcon>
     {largeIcon && (
       <LargeIconWrapper>
         <Icon icon={icon} />
-      </LargeIconWrapper>)
-    }
+      </LargeIconWrapper>
+    )}
     <InfoWrapperStyled>
       <StyledCardHeader>
         {!largeIcon && <Icon icon={icon} />}
@@ -47,7 +49,7 @@ Card.propTypes = {
   icon: node.isRequired,
   meta: string.isRequired,
   tagSecondary: bool,
-  largeIcon: bool
+  largeIcon: bool,
 };
 
 Card.defaultProps = {

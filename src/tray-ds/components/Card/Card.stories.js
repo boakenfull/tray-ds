@@ -1,8 +1,8 @@
 import React from "react";
 import { FaGlobeAmericas } from "react-icons/fa";
-import { text, boolean } from "@storybook/addon-knobs"
+import { text, boolean } from "@storybook/addon-knobs";
 
-import Card from "./";
+import Card from ".";
 
 export default { title: "Card" };
 

@@ -13,7 +13,7 @@ Tag.propTypes = {
 };
 
 Tag.defaultProps = {
-  isSecondary: false
+  isSecondary: false,
 };
 
 export default Tag;

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const NunitoSans300 = require("../fonts/nunito-sans-300.woff");
 const NunitoSans600 = require("../fonts/nunito-sans-600.woff");
