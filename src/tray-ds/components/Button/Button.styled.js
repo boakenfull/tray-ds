@@ -16,6 +16,7 @@ export const ButtonStyled = styled.button`
   font-size: ${smallFontSize};
   padding: 0 16px;
   outline: 0;
+  border: 0;
 
   &:hover {
     cursor: pointer;

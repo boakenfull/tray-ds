@@ -3,7 +3,8 @@
 exports[`renders button component 1`] = `
 <div>
   <button
-    class="sc-AxirZ fFEbIp"
+    class="sc-AxirZ jQaZle"
+    role="button"
   >
     Button
   </button>

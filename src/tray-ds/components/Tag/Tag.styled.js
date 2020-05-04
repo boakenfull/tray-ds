@@ -8,6 +8,7 @@ export const TagStyled = styled.span`
   font-size: ${xsmallFontSize};
   height: 16px;
   color: ${white};
+  font-weight: 600;
   background-color: ${(props) => (props.isSecondary ? frenchGray : cornflowerBlue)};
   border-radius: 4px;
 `;

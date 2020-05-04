@@ -3,7 +3,7 @@
 exports[`should render the secondary tag component 1`] = `
 <div>
   <span
-    class="sc-AxjAm sBda-d"
+    class="sc-AxjAm fcdCyW"
   >
     Text
   </span>
@@ -13,7 +13,7 @@ exports[`should render the secondary tag component 1`] = `
 exports[`should render the tag component 1`] = `
 <div>
   <span
-    class="sc-AxjAm jSFWtu"
+    class="sc-AxjAm yySCJ"
   >
     Text
   </span>

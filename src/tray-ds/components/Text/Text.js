@@ -9,12 +9,12 @@ const Text = ({ children, size, isSecondary }) => (
 
 Text.propTypes = {
   children: string.isRequired,
-  size: oneOf(["small", "medium", "large"]),
+  size: oneOf(["xsmall", "small", "default"]),
   isSecondary: bool,
 };
 
 Text.defaultProps = {
-  size: "medium",
+  size: "default",
   isSecondary: false,
 };
 

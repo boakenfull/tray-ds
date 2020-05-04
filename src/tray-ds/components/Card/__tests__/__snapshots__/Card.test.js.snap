@@ -33,21 +33,21 @@ exports[`should render correctly when the largeIcon prop is passed 1`] = `
         class="sc-AxheI hXWDwA"
       >
         <p
-          class="sc-AxjAm iNrLcX"
+          class="sc-AxjAm QFqrR"
         >
           Yellow submarine
         </p>
       </div>
       <div
-        class="sc-Axmtr jSObNn"
+        class="sc-Axmtr cmQTUN"
       >
         <span
-          class="sc-AxiKw CqCbS"
+          class="sc-AxiKw fdrlYR"
         >
           Personal
         </span>
         <p
-          class="sc-AxjAm eSFkCw"
+          class="sc-AxjAm epdjtK"
         >
           Created by me
         </p>
@@ -57,7 +57,8 @@ exports[`should render correctly when the largeIcon prop is passed 1`] = `
       class="sc-AxmLO MKJBh"
     >
       <button
-        class="sc-AxhCb cgTBkS"
+        class="sc-AxhCb kPifCt"
+        role="button"
       >
         <i
           class="sc-AxirZ bnSjNE"
@@ -111,21 +112,21 @@ exports[`should render the card component 1`] = `
           </svg>
         </i>
         <p
-          class="sc-AxjAm iNrLcX"
+          class="sc-AxjAm QFqrR"
         >
           Yellow submarine
         </p>
       </div>
       <div
-        class="sc-Axmtr jSObNn"
+        class="sc-Axmtr cmQTUN"
       >
         <span
-          class="sc-AxiKw CqCbS"
+          class="sc-AxiKw fdrlYR"
         >
           Personal
         </span>
         <p
-          class="sc-AxjAm eSFkCw"
+          class="sc-AxjAm epdjtK"
         >
           Created by me
         </p>
@@ -135,7 +136,8 @@ exports[`should render the card component 1`] = `
       class="sc-AxmLO MKJBh"
     >
       <button
-        class="sc-AxhCb cgTBkS"
+        class="sc-AxhCb kPifCt"
+        role="button"
       >
         <i
           class="sc-AxirZ bnSjNE"

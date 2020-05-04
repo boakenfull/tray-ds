@@ -28,7 +28,7 @@ const Card = ({
     <InfoWrapperStyled>
       <StyledCardHeader>
         {!largeIcon && <Icon icon={icon} />}
-        <Text size="large">{title}</Text>
+        <Text size="default">{title}</Text>
       </StyledCardHeader>
       <StyledCardBody>
         <Tag isSecondary={tagSecondary}>{tagText}</Tag>

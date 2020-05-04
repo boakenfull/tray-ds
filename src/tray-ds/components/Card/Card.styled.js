@@ -37,6 +37,7 @@ export const StyledCardHeader = styled.div`
 
 export const StyledCardBody = styled.div`
   display: flex;
+  align-items: center;
 
   ${TagStyled} {
     margin-right: ${spacingSmall};
